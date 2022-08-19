@@ -25,7 +25,7 @@ export default function Controls({
   }
 
   function getMinutes() {
-    let newMinutes = prompt('Quantos mintutos?');
+    let newMinutes = prompt('Quantos minutos?');
 
     if (!newMinutes) {
       return false
